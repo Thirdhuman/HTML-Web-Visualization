@@ -1,9 +1,9 @@
 
 .lat {
-  color: white;
+  color: lightsteelblue;
   font-family: Helvetica, sans-serif;
-  font-size: 40px;
-  background-color: rgba(17, 150, 243, 0.205);
+  font-size: 10px;
+  background-color: lightsteelblue(17, 150, 243, 0.205);
   border: 1px solid #2874A6;
     padding: 15px;
 }
@@ -13,20 +13,28 @@
   margin-right: 0px;
   margin-left: 0px;
   padding: 25px;
-  background: rgbrgba(11, 150, 243, 0.205);
+  background: lightsteelblue;
 }
+
+img {
+  display: block;
+  max-width:400px;
+  max-height:400px;
+  width: auto;
+  height: auto;
+}
+
 
 h1 {
   font-family: Helvetica, sans-serif;
   font-size: 14px;
-  background-color:  rgbrgba(11, 150, 243, 0.205);
-}
-
+  background-color:  lightsteelblue;
 }
 h2 {
   font-family: Helvetica, sans-serif;
   font-size: 10px;
 }
+
 h3 {
   font-family: Helvetica, sans-serif;
   font-size: 12px;
