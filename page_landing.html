@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Rorr's Web Visualization Dashboard (Latitude)</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="bs-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="page_landing.html">Navigation Bar</a>
+      </div>
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-navbar-collapse-1">
+        <ul class="nav navbar-nav navbar-right">
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Visualizations
+              <span class="caret"></span>
+            </a>
+            <ul class="dropdown-menu">
+              <li>
+                <a href="page_wind.html">Latitude vs. Wind Speed</a>
+              </li>
+              <li>
+                <a href="page_temp.html">Latitude vs. Max Temperature</a>
+              </li>
+              <li>
+                <a href="page_humidity.html">Latitude vs. Humidity</a>
+              </li>
+              <li>
+                <a href="clouds.html">Latitude vs. Cloudiness</a>
+              </li>
+              <li role="separator" class="divider"></li>
+              <li>
+                <a href="wind.html">Latitude vs. Wind Speed</a>
+              </li>
+              <li>
+                <a href="temp.html">Latitude vs. Max Temperature</a>
+              </li>
+              <li>
+                <a href="humidity.html">Latitude vs. Humidity</a>
+              </li>
+              <li>
+                <a href="clouds.html">Latitude vs. Cloudiness</a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a href="Weather(CSV).htm">Data</a>
+          </li>
+          <li>
+            <a href="comparison.html">Comparison</a>
+          </li>
+          <li>
+            <a target="_blank" href="https://github.com/Thirdhuman/python-challenge/tree/master/WeatherPy">Repository</a>
+          </li>
+        </ul>
+      </div>
+      <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container-fluid -->
+  </nav>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-9 pad top">
+        <br>
+        <div class="pull-center">
+          <div class="text-left">
+            <p> WeatherPy, by Robert Orr </p>
+            <br>
+            <p>My objective is to build a series of scatter plots to showcase the following relationships:</p>
+            <br>
+            <p>Temperature (F) vs. Latitude</p>
+            <p>Humidity (%) vs. Latitude</p>
+            <p>Cloudiness (%) vs. Latitude</p>
+            <p>Wind Speed (mph) vs. Latitude</p>
+            <br>
+            <div class="col-md-9 pad top">
+              <br>
+              <div class="pull-center">
+                <div class="text-left">
+                  <p>Key Takeaways</p>
+                  <br>
+                  <p>1. Temperature increases as one moves north the equator, but most cities are in the north so this relationship
+                    could be symetric I know it actually is).</p>
+                  <br>
+                  <p>2. Windspeed seems to increase as latitude increase, and, once again the bias from cities disproportionately
+                    being situated in the norther hemisphere.</p>
+                  <br>
+                  <p>3. There does not seem to be any discernable relationship in regarding latitude and cloudiness</p>
+                  <p> 4. Humidity appears to a non-linear relationship with latitude. It is low at the equator, but grows as
+                    you move in either direction, and then declines once again when moving towards the poles.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 pad top">
+                <br>
+                <div class="pull-right">
+                  <a href="temp.html">
+                    <img src="https://github.com/Thirdhuman/python-challenge/tree/master/WeatherPy" alt="Latitude vs. Max Temperature" width="100%" height="100%">
+                  </a>
+                  <a href="lat_wind.html">
+                    <img src="assets/images/output_45_0.png" alt="Latitude vs. Wind Speed" width="100%" height="100%">
+                  </a>
+                </div>
+        
+              </div>
+        
+              <div class="col-md-3 pad top">
+                <br>
+        
+                <div class="pull-right">
+                  <a href="humidity.html">
+                    <img src="assets/images/output_41_0.png" alt="Latitude vs. Humidity" width="100%" height="100%">
+                  </a>
+                  <a href="lat_cloud.html">
+                    <img src="assets/images/output_43_0.png" alt="Latitude vs. Cloudiness" width="100%" height="100%">
+                  </a>
+                </div>
+        
+              </div>
+        
+            </div>
+        
+            <div class="row">
+        
+              <div class="col-md-6 pad top">
+                <br>
+                <!-- Nothing here, blank columns -->
+              </div>
+        
+              <div class="col-md-3 pad top">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+</html>
