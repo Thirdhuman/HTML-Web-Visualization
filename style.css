@@ -45,6 +45,7 @@ p{
   font-size: 20px;
 }
 
+box box-single
 
 @media (max-width: 760px) {
   /* For mobile phones: */
